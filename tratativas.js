@@ -83,7 +83,7 @@ tratNosRespondaNoPrivado.value =
 //15
 const tratAjudoEmAlgoMais = document.querySelector("#trat-ajudo-em-algo-mais")
 tratAjudoEmAlgoMais.value =
-"Ajudo em algo mais?"
+"Por gentileza me informe o CEP do endereço que deseja contratar com o numero para eu verificar se temos viabilidade? Caso seja condomínio me informe o nome para eu verificar se atendemos."
 
 /**
  * ESCRITÓRIO
