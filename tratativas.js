@@ -65,7 +65,7 @@ const tratSolicitacaoAtendida = document.querySelector("#trat-solicitacao-atendi
 tratSolicitacaoAtendida.value =
 `Atendimento realizado.
 _Não foi identificado falhas no acesso da *INFOTEC*_
-_Solicitação do cliente atendida._
+_Solicitação do cliente atendida com sucesso._
 A *INFOTEC* agradece o contato${saudFimFrase}`
 
 //13
