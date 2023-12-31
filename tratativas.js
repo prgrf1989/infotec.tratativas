@@ -3,99 +3,66 @@
  */
 
 
-function mensagemTratativa(trat){
+const mensagemTratativa = [
+    
+    // 0
+        `${saudIniFrase}um momento por gentileza que em breve entraremos em contato.`,
     
     // 1
-    if(trat == 1){
-       return mensagem =
-        `${saudIniFrase}um momento por gentileza que em breve entraremos em contato.`
+        `${saudIniFrase}me chamo _${nomeIdent}_, sou técnico do suporte da *INFOTEC*. Como posso ajudar?`,
     
     // 2
-    } else if(trat == 2){
-        return mensagem =
-        `${saudIniFrase}me chamo _${nomeIdent}_, sou técnico do suporte da *INFOTEC*. Como posso ajudar?`
-    
+      `${saudIniFrase}me chamo _${nomeIdent}_, sou técnico do suporte da *INFOTEC*.`,
+
     // 3
-    } else if(trat == 3){
-        return mensagem =
-      `${saudIniFrase}me chamo _${nomeIdent}_, sou técnico do suporte da *INFOTEC*.`
+        `Como posso te ajudar hoje?`,
 
     // 4
-    } else if(trat == 4){
-        return mensagem =
-        "Como posso te ajudar hoje?"
+        `Por gentileza me confirme o *nome completo* ou o *CPF* do titular.`,
 
     // 5
-    } else if(trat == 5){
-        return mensagem =
-        "Por gentileza me confirme o *nome completo* ou o *CPF* do titular."
+        `Só um momento por gentileza que vou verificar.`,
 
     // 6
-    } else if(trat == 6){
-        return mensagem =
-        "Só um momento por gentileza que vou verificar."
+        `_Foi enviado uma mensagem no privado do cliente mas não obtivemos retorno, estamos no aguardo para darmos continuidade a tratativa._`,
 
     // 7
-    } else if(trat == 7){
-        return mensagem =
-        "_Foi enviado uma mensagem no privado do cliente mas não obtivemos retorno, estamos no aguardo para darmos continuidade a tratativa._"
+        `Atendimento encerrado.
+_Não obtivemos retorno pela parte do cliente, caso deseje suporte entre em contato novamente que iremos atender._
+A *INFOTEC* agradece o contato${saudFimFrase}`,
 
     // 8
-    } else if(trat == 8){
-        return mensagem =
-        `Atendimento encerrado.
-        _Não obtivemos retorno pela parte do cliente, caso deseje suporte entre em contato novamente que iremos atender._
-        A *INFOTEC* agradece o contato${saudFimFrase}`
+        `A *INFOTEC* agradece o contato${saudFimFrase}`,
 
     // 9
-     } else if(trat == 9){
-        return mensagem =
-        `A *INFOTEC* agradece o contato${saudFimFrase}`
+        `Disponha, qualquer dúvida estamos a disposição.`,
 
     //10
-    } else if(trat == 10){
-        return mensagem =
-        "Disponha, qualquer dúvida estamos a disposição."
+        `Atendimento realizado.
+_Acesso normalizado sem intervenção técnica_
+A *INFOTEC* agradece o contato${saudFimFrase}`,
 
     //11
-    } else if(trat == 11){
-        return mensagem =
-        `Atendimento realizado.
-        _Acesso normalizado sem intervenção técnica_
-        A *INFOTEC* agradece o contato${saudFimFrase}`
-
-    //12
-    } else if(trat == 12){
-        return mensagem =
         `Atendimento realizado.
         _Não foi identificado falhas no acesso da *INFOTEC*_
         _Solicitação do cliente atendida com sucesso._
-        A *INFOTEC* agradece o contato${saudFimFrase}`
+        A *INFOTEC* agradece o contato${saudFimFrase}`,
+
+    //12
+        `Atendimento realizado.
+_A solicitação do cliente foi encaminhada para o setor responsável._
+A *INFOTEC* agradece o contato${saudFimFrase}`,
 
     //13
-    } else if(trat == 13){
-        return mensagem =
-        `Atendimento realizado.
-        _A solicitação do cliente foi encaminhada para o setor responsável._
-        A *INFOTEC* agradece o contato${saudFimFrase}`
+    `_${saudIniFrase}foi enviado uma mensagem no seu privado para lhe auxiliar, favor nos responder por gentileza para procedermos com a tratativa._`,
 
     //14
-    } else if(trat == 14){
-    return mensagem =
-    `_${saudIniFrase}foi enviado uma mensagem no seu privado para lhe auxiliar, favor nos responder por gentileza para procedermos com a tratativa._`
-
-    //15
-    } else if(trat == 15){
-    return mensagem =
-    "Por gentileza me informe o CEP do endereço que deseja contratar com o numero para eu verificar se temos viabilidade? Caso seja condomínio me informe o nome para eu verificar se atendemos."
+    `Por gentileza me informe o CEP do endereço que deseja contratar com o numero para eu verificar se temos viabilidade? Caso seja condomínio me informe o nome para eu verificar se atendemos.`,
     
     /**
      * ESCRITÓRIO
      */
-    // a
-    } else if(trat == 'a'){
-    return mensagem =
-
+    //15
     `Planos:
     •500MB por R$69,90 
     -----------------
@@ -113,11 +80,9 @@ function mensagemTratativa(trat){
     • Equipamento  (Comodato)  
     • Opções Com/Sem fidelidade 📌
 
-    INFOTEC PROVEDOR💚`
+    INFOTEC PROVEDOR💚`,
 
-    // b
-    } else if(trat == 'b'){
-    return mensagem =
+    //16
     `
     • TV BRASIL
     • TV BRASIL 2
@@ -170,11 +135,8 @@ function mensagemTratativa(trat){
     • TV RÁ-TIM-BUM
     • ZOOMOO KIDS
     • TV TURFE
-    • TV JOCKEY
-    `
+    • TV JOCKEY`,
 
-    // c
-    } else if(trat == 'c'){
-        return mensagem = `ESCRITÓRIO INFOTEC ARACAJU: (79)99679-0553`
-    }
-}
+    //17
+    `ESCRITÓRIO INFOTEC ARACAJU: (79)99679-0553`
+]
