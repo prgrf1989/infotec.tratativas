@@ -44,9 +44,9 @@ A *INFOTEC* agradece o contato${saudFimFrase}`,
 
     //11
         `Atendimento realizado.
-        _Não foi identificado falhas no acesso da *INFOTEC*_
-        _Solicitação do cliente atendida com sucesso._
-        A *INFOTEC* agradece o contato${saudFimFrase}`,
+_Não foi identificado falhas no acesso da *INFOTEC*_
+_Solicitação do cliente atendida com sucesso._
+A *INFOTEC* agradece o contato${saudFimFrase}`,
 
     //12
         `Atendimento realizado.
