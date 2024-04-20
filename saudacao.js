@@ -9,11 +9,11 @@ let saudFimFrase
 let diaHoje = new Date()
 let horaAtual = diaHoje.getHours()
 
-if(horaAtual >= 1 && horaAtual <= 11){
+if(horaAtual >= 1 && horaAtual <= 10){
     saudIniFrase = `Bom dia, `
     saudFimFrase = `, tenha um bom dia.`
 
-} else if(horaAtual >=12 && horaAtual <=17){
+} else if(horaAtual >=11 && horaAtual <=16){
     saudIniFrase = `Boa tarde, `
     saudFimFrase = `, tenha uma boa tarde.`
 
